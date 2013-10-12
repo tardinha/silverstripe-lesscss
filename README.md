@@ -9,7 +9,7 @@ I snagged all the good bits from [Less](https://github.com/axllent/silverstripe-
 by [Ralph Slooten](https://github.com/axllent)!
 
 ## Features
-* Uses lessphp http://leafo.net/lessphp/
+* Uses [lessphp](http://leafo.net/lessphp/)
 * Includes flushing option (?flush=1) to regenerate CSS stylesheets
 (ie. force undetected less changes with @import)
 * Check all required *.css files for a *.less equivalent, so works transparently.
@@ -23,7 +23,7 @@ by [Ralph Slooten](https://github.com/axllent)!
 
 ## Installation
 
-#### Composer
+### Composer
 
 	composer require tardinha/silverstripe-less
 	
@@ -35,7 +35,7 @@ In your Template.ss you can refer to your less files either by name (eg: stylesh
 stylesheet.css (the parser will check to see if there is a less file for all css files).
 
 <pre>
-	&lt;% require css(themes/mytheme/css/stylesheet.less) %&gt;
+&lt;% require css(themes/mytheme/css/stylesheet.less) %&gt;
 </pre>
 
 or in your Page Controller you could:
