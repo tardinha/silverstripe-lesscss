@@ -1,0 +1,26 @@
+{
+    "name": "tardinha/silverstripe-lesscss",
+    "type": "silverstripe-module",
+    "description": "Simple wrapper for lessphp to integrate LESS in SilverStripe.",
+    "keywords": ["silverstripe", "css", "less", "lessphp"],
+    "homepage": "https://github.com/tardinha/silverstripe-lesscss",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Mark Taylor",
+            "email": "tardinha@gmail.com",
+            "homepage": "http://tardinha.com"
+        },
+        {
+            "name": "Ralph Slooten",
+            "homepage": "http://www.axllent.org/"
+        }
+    ],
+    "require": {
+        "leafo/lessphp": "0.4.0"
+    },
+    "extra": {
+      "installer-name": "less"
+    },
+    "minimum-stability": "dev"
+}
